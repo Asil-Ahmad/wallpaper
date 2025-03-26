@@ -16,6 +16,22 @@ import image15 from "./15.png";
 import image16 from "./16.png";
 import image17 from "./17.png";
 import image18 from "./18.png";
+import image19 from "./19.png";
+import image20 from "./20.png";
+import image21 from "./21.png";
+import image22 from "./22.png";
+import image23 from "./23.png";
+import image24 from "./24.png";
+import image25 from "./25.png";
+import image26 from "./26.png";
+import image27 from "./27.png";
+import image28 from "./28.png";
+import image29 from "./29.png";
+import image30 from "./30.png";
+import image31 from "./31.png";
+import image32 from "./32.png";
+import image33 from "./33.png";
+
 export {
   image1,
   image2,
@@ -35,6 +51,21 @@ export {
   image16,
   image17,
   image18,
+  image19,
+  image20,
+  image21,
+  image22,
+  image23,
+  image24,
+  image25,
+  image26,
+  image27,
+  image28,
+  image29,
+  image30,
+  image31,
+  image32,
+  image33,
 };
 
 export const images = [
@@ -56,7 +87,19 @@ export const images = [
   image16,
   image17,
   image18,
+  image19,
+  image20,
+  image21,
+  image22,
+  image23,
+  image24,
+  image25,
+  image26,
+  image27,
+  image28,
+  image29,
+  image30,
+  image31,
+  image32,
+  image33,
 ];
-
-
-
