@@ -1,8 +1,9 @@
 "use client";
 import React, { useMemo } from "react";
-import { images } from "./assets/images";
-import { videos } from "./assets/videos";
+
 import { useInView } from "react-intersection-observer";
+import { images } from "../assets/images";
+import { videos } from "../assets/videos";
 
 const Homepage = () => {
   const handleDownload = (url, filename) => {

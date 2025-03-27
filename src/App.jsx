@@ -1,6 +1,10 @@
-import React, { useState, useEffect } from "react";
-import Homepage from "./Homepage";
+import React, { useState, useEffect, lazy, Suspense } from "react";
 import Loader from "./constant/Loader";
+import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
+
+const Homepage = lazy(() => import("./components/Homepage"));
+const Alvida = lazy(() => import("./components/Alvida"));
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -8,15 +12,26 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
-    
-    return () => clearTimeout(timer);
+    }, 2000); // Add a delay (e.g., 2000ms)
 
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <div className='bg-black min-h-screen'>
-      {loading ? <Loader /> : <Homepage />}
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Navbar />
+          <Suspense fallback={<Loader />}>
+            <Routes>
+              <Route path='/' element={<Homepage />} />
+              <Route path='/alvida' element={<Alvida />} />
+            </Routes>
+          </Suspense>
+        </>
+      )}
     </div>
   );
 };
