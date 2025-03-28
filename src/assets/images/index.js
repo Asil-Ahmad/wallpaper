@@ -31,6 +31,44 @@ import image30 from "./30.png";
 import image31 from "./31.png";
 import image32 from "./32.png";
 import image33 from "./33.png";
+import image34 from "./34.png";
+import image35 from "./35.png";
+import image36 from "./36.png";
+import image37 from "./37.png";
+import image38 from "./38.png";
+import image39 from "./39.png";
+import image40 from "./40.png";
+import image41 from "./41.png";
+import image42 from "./42.png";
+import image43 from "./43.png";
+import image44 from "./44.png";
+import image45 from "./45.png";
+import image46 from "./46.png";
+import image47 from "./47.png";
+import image48 from "./48.png";
+import image49 from "./49.png";
+import image50 from "./50.png";
+import image51 from "./51.png";
+import image52 from "./52.png";
+import image53 from "./53.png";
+import image54 from "./54.png";
+import image55 from "./55.png";
+import image56 from "./56.png";
+import image57 from "./57.png";
+import image58 from "./58.png";
+import image59 from "./59.png";
+import image60 from "./60.png";
+import image61 from "./61.png";
+import image62 from "./62.png";
+import image63 from "./63.png";
+import image64 from "./64.png";
+import image65 from "./65.png";
+import image66 from "./66.png";
+import image67 from "./67.png";
+import image68 from "./68.png";
+import image69 from "./69.png";
+import image70 from "./70.png";
+import image71 from "./71.png";
 
 export {
   image1,
@@ -66,6 +104,44 @@ export {
   image31,
   image32,
   image33,
+  image34,
+  image35,
+  image36,
+  image37,
+  image38,
+  image39,
+  image40,
+  image41,
+  image42,
+  image43,
+  image44,
+  image45,
+  image46,
+  image47,
+  image48,
+  image49,
+  image50,
+  image51,
+  image52,
+  image53,
+  image54,
+  image55,
+  image56,
+  image57,
+  image58,
+  image59,
+  image60,
+  image61,
+  image62,
+  image63,
+  image64,
+  image65,
+  image66,
+  image67,
+  image68,
+  image69,
+  image70,
+  image71,
 };
 
 export const images = [
@@ -102,4 +178,42 @@ export const images = [
   image31,
   image32,
   image33,
+  image34,
+  image35,
+  image36,
+  image37,
+  image38,
+  image39,
+  image40,
+  image41,
+  image42,
+  image43,
+  image44,
+  image45,
+  image46,
+  image47,
+  image48,
+  image49,
+  image50,
+  image51,
+  image52,
+  image53,
+  image54,
+  image55,
+  image56,
+  image57,
+  image58,
+  image59,
+  image60,
+  image61,
+  image62,
+  image63,
+  image64,
+  image65,
+  image66,
+  image67,
+  image68,
+  image69,
+  image70,
+  image71,
 ];
