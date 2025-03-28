@@ -36,7 +36,7 @@ const Homepage = () => {
           <div
             key={`media-${index}`}
             ref={ref}
-            className='p-1 hover:scale-105 transition-all duration-150'
+            className='p-0.5 hover:scale-105 transition-all duration-150'
           >
             {inView &&
               (media.type === "image" ? (
@@ -44,7 +44,7 @@ const Homepage = () => {
                   loading='lazy'
                   src={media.src}
                   alt={`media-${index}`}
-                  className='w-full cursor-pointer'
+                  className='w-full cursor-pointer rounded-lg '
                   onClick={() => handleDownload(media.src, `image-${index}.jpg`)}
                 />
               ) : (
@@ -54,7 +54,7 @@ const Homepage = () => {
                   muted
                   playsInline
                   controls={false}
-                  className='w-full cursor-pointer'
+                  className='w-full cursor-pointer rounded-lg'
                   onClick={() => handleDownload(media.src, `video-${index}.mp4`)}
                 >
                   <source src={media.src} type='video/mp4' />
