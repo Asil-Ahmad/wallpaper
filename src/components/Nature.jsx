@@ -1,7 +1,6 @@
 "use client";
 import React, { useMemo } from "react";
 import { useInView } from "react-intersection-observer";
-import { alvida } from "../assets/alvida";
 import { natures } from "../assets/nature";
 
 const Nature = () => {
