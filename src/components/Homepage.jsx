@@ -1,12 +1,18 @@
 "use client";
 import React, { useMemo } from "react";
-
+import ReactGA from "react-ga4";
 import { useInView } from "react-intersection-observer";
-import { images } from "../assets/images";
+import { images } from "../assets/eidmubarak";
 import { videos } from "../assets/videos";
 
 const Homepage = () => {
   const handleDownload = (url, filename) => {
+    // Track the download event in Google Analytics
+    ReactGA.event({
+      category: "Download",
+      action: "Image Download",
+      label: filename,
+    });
     const link = document.createElement("a");
     link.href = url;
     link.download = filename;

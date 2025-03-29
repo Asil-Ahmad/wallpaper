@@ -31,15 +31,16 @@ import image30 from "./30.png";
 import image31 from "./31.png";
 import image32 from "./32.png";
 import image33 from "./33.png";
+//no eid mubarak
 import image34 from "./34.png";
 import image35 from "./35.png";
 import image36 from "./36.png";
 import image37 from "./37.png";
-import image38 from "./38.png";
+// import image38 from "./38.png";
 import image39 from "./39.png";
 import image40 from "./40.png";
 import image41 from "./41.png";
-import image42 from "./42.png";
+// import image42 from "./42.png";
 import image43 from "./43.png";
 import image44 from "./44.png";
 import image45 from "./45.png";
@@ -60,7 +61,7 @@ import image59 from "./59.png";
 import image60 from "./60.png";
 import image61 from "./61.png";
 import image62 from "./62.png";
-import image63 from "./63.png";
+// import image63 from "./63.png";
 import image64 from "./64.png";
 import image65 from "./65.png";
 import image66 from "./66.png";
@@ -108,11 +109,11 @@ export {
   image35,
   image36,
   image37,
-  image38,
+  // image38,
   image39,
   image40,
   image41,
-  image42,
+  // image42,
   image43,
   image44,
   image45,
@@ -133,7 +134,7 @@ export {
   image60,
   image61,
   image62,
-  image63,
+  // image63,
   image64,
   image65,
   image66,
@@ -182,11 +183,11 @@ export const images = [
   image35,
   image36,
   image37,
-  image38,
+  // image38,
   image39,
   image40,
   image41,
-  image42,
+  // image42,
   image43,
   image44,
   image45,
@@ -207,7 +208,7 @@ export const images = [
   image60,
   image61,
   image62,
-  image63,
+  // image63,
   image64,
   image65,
   image66,

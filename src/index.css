@@ -5,7 +5,7 @@ body {
 }
 
 .menu-bar,
-.menu-overlay {
+.menu-overlay-bar {
   position: fixed;
   top: 0;
   left: 0;
@@ -37,6 +37,7 @@ body {
   background: rgb(187, 255, 0);
   z-index: 2;
   display: flex;
+  clip-path: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)";
 }
 
 .menu-close-icon {
@@ -92,4 +93,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+@media (max-width: 900px) {
+  .menu-close-icon {
+    display: none;
+  }
+  .menu-copy {
+    padding-top: 8em;
+  }
+
+  .menu-link-item-holder a {
+    font-size: 60px;
+  }
 }
