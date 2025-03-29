@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { initGA, trackPageView } from "./service/analytics";
 import Alvida from "./components/Alvida";
+import Nature from "./components/Nature";
 
 const App = () => {
   const location = useLocation();
@@ -19,7 +20,7 @@ console.log(location);
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    });
+    },2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -34,6 +35,7 @@ console.log(location);
           <Routes>
             <Route path='/' element={<Homepage />} />
             <Route path='/alvida' element={<Alvida />} />
+            <Route path='/nature' element={<Nature />} />
           </Routes>
         </>
       )}

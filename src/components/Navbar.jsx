@@ -69,6 +69,9 @@ const Navbar = () => {
         <Link to='/alvida' className='px-4 py-2 rounded-md hover:text-gray-200 hover:underline'>
           Alvida
         </Link>
+        <Link to='/nature' className='px-4 py-2 rounded-md hover:text-gray-200 hover:underline'>
+         Nature
+        </Link>
       </nav>
     </header>
     // <div className='menu-container' ref={container}>

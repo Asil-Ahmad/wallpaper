@@ -36,11 +36,11 @@ import image34 from "./34.png";
 import image35 from "./35.png";
 import image36 from "./36.png";
 import image37 from "./37.png";
-// import image38 from "./38.png";
+import image38 from "./38.png";
 import image39 from "./39.png";
 import image40 from "./40.png";
 import image41 from "./41.png";
-// import image42 from "./42.png";
+import image42 from "./42.png";
 import image43 from "./43.png";
 import image44 from "./44.png";
 import image45 from "./45.png";
@@ -61,7 +61,7 @@ import image59 from "./59.png";
 import image60 from "./60.png";
 import image61 from "./61.png";
 import image62 from "./62.png";
-// import image63 from "./63.png";
+import image63 from "./63.png";
 import image64 from "./64.png";
 import image65 from "./65.png";
 import image66 from "./66.png";
@@ -70,6 +70,12 @@ import image68 from "./68.png";
 import image69 from "./69.png";
 import image70 from "./70.png";
 import image71 from "./71.png";
+import image72 from "./72.png";
+import image73 from "./73.png";
+import image74 from "./74.png";
+import image75 from "./75.png";
+import image76 from "./76.png";
+import image77 from "./77.png";
 
 export {
   image1,
@@ -109,11 +115,11 @@ export {
   image35,
   image36,
   image37,
-  // image38,
+  image38,
   image39,
   image40,
   image41,
-  // image42,
+  image42,
   image43,
   image44,
   image45,
@@ -134,7 +140,7 @@ export {
   image60,
   image61,
   image62,
-  // image63,
+  image63,
   image64,
   image65,
   image66,
@@ -143,6 +149,12 @@ export {
   image69,
   image70,
   image71,
+  image72,
+  image73,
+  image74,
+  image75,
+  image76,
+  image77,
 };
 
 export const images = [
@@ -183,11 +195,11 @@ export const images = [
   image35,
   image36,
   image37,
-  // image38,
+  image38,
   image39,
   image40,
   image41,
-  // image42,
+  image42,
   image43,
   image44,
   image45,
@@ -208,7 +220,7 @@ export const images = [
   image60,
   image61,
   image62,
-  // image63,
+  image63,
   image64,
   image65,
   image66,
@@ -217,4 +229,10 @@ export const images = [
   image69,
   image70,
   image71,
+  image72,
+  image73,
+  image74,
+  image75,
+  image76,
+  image77,
 ];
